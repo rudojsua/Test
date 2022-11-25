@@ -28,4 +28,14 @@ public class OrderStruct {
     public List<String> getOrderName() {
         return orderName;
     }
+
+    @Override
+    public String toString() {
+        return "OrderStruct{" +
+                "orderId=" + orderId +
+                ", recipientName='" + recipientName + '\'' +
+                ", recipientSurname='" + recipientSurname + '\'' +
+                ", orderName=" + orderName +
+                '}';
+    }
 }
